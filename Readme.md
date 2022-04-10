@@ -30,5 +30,8 @@ For this demo I have added api keys to my properties, which otherwise should be 
 
 ### Alternate flow:
 Currently I am using seperate topics for all tickers as the requirement said the consumer should be able to subscribe as required. But we could also use a single topic for all ticker and filter at consumer level based on keys or by using k-stream filters.
+
+## NEXT STEPS
+Here I have represented simple producer/consumer sever side apps. I was not clear on eact requirements so I assumed this is what was required. Incase we need a client (As in front end app) to read these msgs real time, we can implement the same using webflux websockets to provide a websocket in spring boot consumer for our front end app. I did a personal project on it once, but Haven't used it in production.
  
     
