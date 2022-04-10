@@ -22,6 +22,7 @@ For this demo I have added api keys to my properties, which otherwise should be 
 
 ### To run this app:
 * Install java11 or higher (This was created and tested with Java-17.00.1)
+* Please replace username='{{ CLUSTER_API_KEY }}'   password='{{ CLUSTER_API_SECRET }}' with API key values.
 * Run it as Spring boot app in any IDA with spring profiles: "producer" or "consumer" or both.
 * If "producer profile is active", you can check the REST endpoints available at: http://localhost:8080/swagger-ui/index.html#
 ![image](https://user-images.githubusercontent.com/13507690/162608370-ab6a3867-d76d-4373-9ea2-ed9cc7af3181.png)
